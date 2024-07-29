@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Personal-Portfolio</title>
     <script src="https://kit.fontawesome.com/5376355c25.js" crossorigin="anonymous"></script>
-    
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 </head>
 <body>
 
@@ -15,7 +15,7 @@
     <div id="header">
         <div class="container">
             <nav>
-                <img src="logo.jpg" class="logo">
+                <img src="logo1.jpg" class="logo">
                 <ul id="sidemenu">
                     <li><a href="#header">Home</a></li>
                     <li><a href="#about">About</a></li>
@@ -26,29 +26,36 @@
                 </ul>
                 <i class="fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
-            <div class="header-text">
-                <p>UI/UX Designer </p>
-                <h1>Hi, I am <span>Kevin</span> <br>Jen From Australia</h1>
+            <div class="con1">
+                <div class="header-text">
+                    <p>Hi , Myself</p>
+                    <h1> <span>Divyan </span>Varshney</h1>
+                    <div class="hea-te">and I'm a Passionate</div>
+                    <span id="element"></span>
+                </div>
+                <div class="home-img">
+                    <img src="backg.jpg" alt="">
+                </div>
             </div>
         </div>
+        
     </div>
-
+    <hr class="line">
     <!---------About --------->
 
     <div id="about">
         <div class="container">
             <div class="row">
                 <div class="about-col-1">
-                    <img src="user.jpg" alt="user">
+                    <img src="backg.jpg" alt="user">
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">About me</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                         Sint repellat non modi eius dolore ipsa nulla saepe maiores beatae,
                          reprehenderit minus accusamus ad voluptatem earum. Eos saepe officiis 
                          nam optio.
-                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis quod
-                        eaque excepturi tempora maiores dolorum a eum voluptates? Minima laborum
+                        eaque excepturi dolorum a eum voluptates? Minima laborum
                         optio hic! Explicabo, distinctio doloremque aliquid consectetur nobis
                          blanditiis tenetur.
                     </p>
@@ -126,11 +133,12 @@
                 <div class="work">
                     <img src="work-1.jpg" alt="worklogo">
                     <div class="layer">
-                        <h3>Social Media App</h3>
+                        <h3>Journey Junction</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             deserunt laborum facere hic iusto nisi ratione aut, aliquam velit
                              porro sit quia laboriosam, modi obcaecati.</p>
-                             <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                             <a href="Https://j-junction.000webhostapp.com/
+                             "><i class="fa-solid fa-up-right-from-square"></i></a>
                     </div>
                 </div>
                 <div class="work">
@@ -164,15 +172,15 @@
             <div class="row">
                 <div class="contact-left">
                     <h1 class="sub-title">Contact me</h1>
-                    <p><i class="fa-solid fa-paper-plane"></i>contact@gmail.com</p>
-                    <p><i class="fa-solid fa-phone"></i>0123456</p>
+                    <p><i class="fa-solid fa-paper-plane"></i>varshneyi232@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+8266940577</p>
                     <div class="social-icons">
                         <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
                         <a href=""><i class="fa-brands fa-twitter"></i></a>
                         <a href=""><i class="fa-brands fa-instagram"></i></a>
                         <a href=""><i class="fa-brands fa-linkedin"></i></a>
                     </div>
-                    <a href="my-cv.pdf" download class="btn btn2">Download CV</a>
+                    <a href="images/ishuvarshney-resume.PDF" download class="btn btn2">Download CV</a>
                 </div>
                 <div class="contact-right">
                     <form name="submit-to-google-sheet">
@@ -186,7 +194,7 @@
             </div>
         </div>
         <div class="copyright">
-            <p>Copyright @ Kevin www.myportfolio
+            <p>Copyright @ Divyan www.myportfolio
 
             </p>
         </div>
@@ -236,6 +244,12 @@
             })
             .catch(error => console.error('Error!', error.message))
         })
+      </script>
+      <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'Graphic Designer','Web Designer'],
+          typeSpeed: 90,
+        });
       </script>
 </body>
 </html>
