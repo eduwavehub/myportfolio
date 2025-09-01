@@ -206,6 +206,9 @@ hr{
     font-weight: 500;
     margin-bottom: 15px;
 }
+.services-list div p{
+    font-size: 20px;
+}
 .services-list div a{
     text-decoration: none;
     color: #fff;
@@ -484,6 +487,7 @@ nav .fa-solid{
     margin-top: -40px;
     display: block;
 }
+
 
 
 
