@@ -262,7 +262,7 @@ hr{
     font-size: 15px;
     transition: 0.5s;
 }
-.layer h3{
+.layer h2{
     font-weight: 600;
     margin-bottom: 15px;
 }
@@ -300,7 +300,7 @@ hr{
 }
 
 .contact-left{
-    flex-basis: 35%;
+    flex-basis: 35%;            /**/
 
 }
 .contact-right{
@@ -456,22 +456,25 @@ nav .fa-solid{
     .services-list p{
         font-size: 20px;
     }
-    .layer h3{
+    .layer h2{
         font-size: 26px;
     }
     .layer p{
         font-size: 15px;
     }
-    .work{
-    height:42vh;
-    }
+    .work {
+    height: 40vh;
+}
    /* .tab-contents{
         font-size: 20px;
     }
     .services-list div{
     font-size: 19px;
     }*/
-    .contact-left, .contact-right{
+    .contact-left{
+        flex-basis: 100%;
+    }
+    .contact-right{
         flex-basis: 100%;
     }
     .copyright{
@@ -487,8 +490,3 @@ nav .fa-solid{
     margin-top: -40px;
     display: block;
 }
-
-
-
-
-
